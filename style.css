@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+h2{ 
+    text-align: center;
+    margin-bottom: 40px;
+}
+#formDicasLOL{
+    margin-left: 50PX;
+}
+input{
+    margin: 10PX;
+}
+select{
+    margin: 10PX;
+}
+#formDicasLOL{
+    background-color: #c4b0b5;
+    padding:20px;   
+    border: 1px solid purple;
+    border-radius: 5px;  
+    margin-left: 15% ;
+    margin-right: 15%;
+}
+#campoHabilidade{
+    width: 35%;
+}
+#campoDescricao{
+    width: 35%;
+}
+.btn{
+    margin-top: 20px;
+}
+#obg{   
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    background-color: #772424;
+    margin-bottom: 20px;
+}
+.header a{
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 2px;
+}
+.header p{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: gray;
+    color: black;
+    padding: 2px;
+}
+.header_area {
+    padding: 1%;
+}
+.menu_area {
+    margin-top: 8px;
+}
+.menu_area nav a {
+    background-color: #DCAB6B;
+    padding: 10px;
+}
+.menu_area nav a:hover {
+    background-color: gray;
+}
+
+#tela{
+    text-align: center;
+}
+.dica{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: gray;
+    color: black;
+    padding: 20px;      
+}
+.dica:hover{
+    background-color: red;
+    }

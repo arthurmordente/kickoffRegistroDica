@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kickoff Games - Adicionar Dica LOL</title>
+</head>
+
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12">
+                        <p><b>Kickoff Games</b></p>
+                    </div>
+                    <div class="col-12 menu_area">
+                        <nav class="nav">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="">Página Inicial</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="">Dicas Valorant</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="">Dicas LOL</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="">Sobre nós</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div id="formDicasLOL">
+
+        <h2> Dicas sobre LOL</h2>
+        <p id="intro"> Aqui você pode adicionar sua própria dica para contribuir com o conhecimento para o site, favor
+            adicionar conforme os exemplos em nosso catálogo, note que em Mídia nós damos a possiblidade de adicionar um
+            URL para uma imagem ou vídeo, favor só preencher esse campo com URLs válidas. Para Editar ou apagar alguma dica, selecione-a no catálogo abaixo. Lembre-se que uma dica apagada só sera realmente excluída quando um moderador analisar a exclusão, até la ela so ficará invisível no catálogo.
+            Por motivos de erro de código do nosso estagiário, ao selecionar uma dica para alteração ou exclusão, favor clicar longe do texto no bloco, agradecemos e estamos melhorando essa parte para seu conforto.</p>
+        <h3>Adicionar Dica</h3>
+        Habilidade *: <input type="text" id="campoHabilidade" name="habilidade">
+        Categoria *: <input type="text" id="campoCategoria" name="categoria">
+        Mídia: <input type="text" id="campoMidia" name="midia">
+        Dificuldade *: <select id="campoDificuldade" name="dificuldade">
+            <option value="0" selected>Selecione...</option>
+            <option value="1">Iniciante</option>
+            <option value="2">Intermediário</option>
+            <option value="3">Avançado</option>
+        </select>
+        <div id="descricao" class="col-12">
+            Descrição *: <textarea id="campoDescricao" name="descricao"></textarea><br>
+        </div>
+
+        <p id="obg">(*) Campos obrigatórios</p>
+        <div id="confirma"></div>
+        <button id="botaoSalvar" class="btn btn-primary">Adicionar</button>
+        <button id="botaoAlterar" class="btn btn-primary">Editar</button>
+        <button id="botaoApagar" class="btn btn-primary">Apagar</button>
+    </div>
+
+    <main id="tela"></main>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
